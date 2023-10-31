@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test categories 1",
+      "setup": "",
+      "run": "./scattergories.py ",
+      "input": "skirt",
+      "output": "What category is skirt in?\r\nclothing",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test Seating",
+      "setup": "",
+      "run": "./seating.py",
+      "input": "-g guests_50.txt -t 5",
+      "output": "Table 7: Devon Curry,",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
